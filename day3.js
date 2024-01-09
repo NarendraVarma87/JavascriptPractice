@@ -1,4 +1,4 @@
-/* Loops
+/* Loops Basic Syntax
 while , for , do while
 */
 //while loop

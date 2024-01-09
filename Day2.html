@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic JS</title>
+    </head>
+    <body>
+        <h2 style="text-align: center;">Day 2 Of Basic JS</h2>
+        <script>
+            let contactNumber = prompt("Enter Option : ");
+            let option = parseInt(contactNumber);
+            if(option == 100){
+                document.writeln("<h1>Its An police number <br>");
+            }else if(option == 101){
+                document.writeln("<h1>It is fire engine number <br>");
+            }else if(option == 103){
+                document.writeln("<h1>It is enquiry number <br>");
+            }else if( option == 104){
+                document.writeln("<h1>Its An medical contact number <br>");
+            }else if(option == 108){
+                document.writeln("<h1>It is emergency number<br>");
+            }else{
+                document.writeln("<h1>Invalid option <br>");
+            }
+            function switchCase(){
+                let option = prompt("Enter option : ");
+                let number = parseInt(option);
+                switch(number){
+                     case 100: document.writeln("It is Police Number");break;
+                     case 101: document.writeln("It is fire engine number");break;
+                     case 103: document.writeln("It is enquiry number");break;
+                     case 108: document.writeln("It is emergency number");break;
+                }
+            }
+            switchCase();
+        </script>
+    </body>
+</html>

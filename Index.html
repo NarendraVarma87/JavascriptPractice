@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic JS</title>
+    </head>
+    <body>
+        <h1>Basic Javascript</h1>
+        <script>
+            let number = 200;
+            //addition
+           function first(){
+            let num1 = 20;
+            let num2 = 30;
+            let res = num1+num2+number;
+            document.writeln("<h1>"+res +"<br>");
+           }
+           first()
+           //even or odd
+           function evenOrOdd(){
+            let num  = prompt("Enter Number : ");
+            let n = parseInt(num);
+            if(n % 2 ==0){
+                document.writeln("<h1>"+n+" is Even Number");
+            }else{
+                document.writeln("<h1>"+n+ " is Odd Number");
+            }
+           }
+          evenOrOdd();
+          //prime number or not
+          function primeOrNot() {
+    let number = prompt("Enter Number: ");
+    let num = parseInt(number);
+    let count = 0;
+
+    for (var i = 2; i <= Math.sqrt(num); i++) {
+        if (num % i === 0) {
+            count = count + 1;
+            break;  // Break the loop if a divisor is found
+        }
+    }
+
+    if (count >= 1) {
+        document.writeln("<h2>" + num + " is not a Prime Number</h2>");
+    } else {
+        document.writeln("<h2>" + num + " is a Prime Number</h2>");
+    }
+}
+primeOrNot();
+
+        </script>
+    </body>
+</html>

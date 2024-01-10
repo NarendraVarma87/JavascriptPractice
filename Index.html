@@ -28,25 +28,29 @@
           evenOrOdd();
           //prime number or not
           function primeOrNot() {
-    let number = prompt("Enter Number: ");
-    let num = parseInt(number);
-    let count = 0;
+             let number = prompt("Enter Number: ");
+             let num = parseInt(number);
+             let count = 0;
 
-    for (var i = 2; i <= Math.sqrt(num); i++) {
+       for (var i = 2; i <= Math.sqrt(num); i++) {
         if (num % i === 0) {
             count = count + 1;
             break;  // Break the loop if a divisor is found
         }
-    }
-
-    if (count >= 1) {
+        }
+        if (count >= 1) {
         document.writeln("<h2>" + num + " is not a Prime Number</h2>");
-    } else {
+        } else {
         document.writeln("<h2>" + num + " is a Prime Number</h2>");
-    }
-}
-primeOrNot();
-
+        }
+        }
+        primeOrNot();
+        //arrow function with parametrized
+        const sum = (num1 , num2) => {
+            let total = num1+num2;
+            document.writeln("<h2>" + total);
+        }
+        sum(205,35);
         </script>
     </body>
 </html>

@@ -8,6 +8,7 @@ This repository contains my daily JavaScript practice code. I am learning and im
 - [Day 2]: learn and practise if else if and Switch case.
 - [Day 3]: learnt basic loops (for loop , while loop , do while loop).
 - [Day 4]: Objects in JavaScript (basic to complex).
-
+- [Day 5]: Creating constructor(using es5 class and normal functional constructor) and using This keyword.
+- [Day 6]: Recursion in JS 
 ## Author
 Narendra Varma Uppalapati

@@ -29,11 +29,11 @@ let order = (fruit_Name,holer_name,topping_item,call_production) =>{
             console.log(`cutting the ${stocks.Fruits[fruit_Name]} into slices`);
         },1000);
         setTimeout(()=>{
-            console.log(`Adding ${stocks.Liquid} into cutted pieces`);
-            console.log("Starting the machine");
+            console.log(`${stocks.Liquid} was added`);
+            console.log("the machine was started");
         },1000);
        setTimeout(()=>{
-        console.log(`selecting container ${stocks.holder[holer_name]}`);
+        console.log(`ice cream was placed on ${stocks.holder[holer_name]}`);
        },2000);
        setTimeout(()=>{
         console.log(`Topping item with ${stocks.toppings[topping_item]}`);

@@ -10,5 +10,9 @@ This repository contains my daily JavaScript practice code. I am learning and im
 - [Day 4]: Objects in JavaScript (basic to complex).
 - [Day 5]: Creating constructor(using es5 class and normal functional constructor) and using This keyword.
 - [Day 6]: Recursion in JS, sync And Async operations, CallBack.
+- [Day 7]: sync and async, promises.
+- [Day 8]: Revised above topics.
+
 ## Author
+
 Narendra Varma Uppalapati

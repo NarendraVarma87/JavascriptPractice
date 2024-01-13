@@ -15,9 +15,9 @@ topping_choice = () =>{
                                 
 kitchen();
 async function kitchen() {
-    console.log(" a ");
-    console.log(" b ");
+    console.log("cleaning utinciles ");
+    console.log("cutting fruits ");
     await topping_choice();
-    console.log(" c ");
-    console.log(" d ");
+    console.log("preparing items ");
+    console.log("all set serving your order to your table :) soon ");
 }

@@ -12,6 +12,7 @@ This repository contains my daily JavaScript practice code. I am learning and im
 - [Day 6]: Recursion in JS, sync And Async operations, CallBack.
 - [Day 7]: sync and async, promises.
 - [Day 8]: Revised above topics.
+- [Day 9]: Rest.
 
 ## Author
 
